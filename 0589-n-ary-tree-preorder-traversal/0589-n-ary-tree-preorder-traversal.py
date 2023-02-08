@@ -13,7 +13,7 @@ class Node:
 
 class Solution:
     def preorder(self, root: 'Node') -> List[int]:               
-        if not root:
+        if root is None:
             return None
         stack = [root]
         output = []
