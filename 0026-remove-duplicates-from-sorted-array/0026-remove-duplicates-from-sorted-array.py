@@ -7,5 +7,5 @@ class Solution:
             else:
                 i = j
                 j+=1  
-        return len(nums)
+        return j
         
