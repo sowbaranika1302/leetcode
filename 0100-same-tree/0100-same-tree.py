@@ -17,7 +17,7 @@ class Solution:
                 return False
         deq = deque([(p,q)])
         while deq:
-            print("hi", deq)
+            
             p,q = deq.popleft()
             if not check(p,q):
                 return False
