@@ -11,10 +11,7 @@ class Solution:
                 return True
             if p is None or q is None:
                 return False
-            elif p.val == q.val:
-                return True
-            else:
-                return False
+            return p.val == q.val
         deq = deque([(p,q)])
         while deq:
             
