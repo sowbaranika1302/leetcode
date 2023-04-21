@@ -4,13 +4,15 @@ class Solution:
         res = []
         for i in s:
             if i in dic:
-                if res and res[-1]== dic[i]:
+                if res and res[-1]==dic[i]: 
                     res.pop()
                 else:
                     return False
             else:
                 res.append(i)
+            
         return not res
+                
             
         
         
