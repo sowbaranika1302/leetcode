@@ -3,7 +3,7 @@ class Solution:
         k = 0
         for i in nums:
             if i!=val:
-                nums[k] = i
+                nums[k] =i
                 k+=1
         return k
         
